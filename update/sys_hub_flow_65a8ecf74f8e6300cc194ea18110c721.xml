@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Weekly flow to clean up older NeedIt tasks.</description>
+        <internal_name>weekly_needit_cleanup_flow</internal_name>
+        <label_cache>[{"name":"27d183b4-c0fd-44c9-bc1c-c8f118253296.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"274ac417-200c-4723-838c-95a51c603dab.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"680cae5a-db8d-4438-8ee1-5336783d0763.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"680cae5a-db8d-4438-8ee1-5336783d0763.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"680cae5a-db8d-4438-8ee1-5336783d0763.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"046d2958-43ae-40f8-a727-4af7d6174a92.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"046d2958-43ae-40f8-a727-4af7d6174a92.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"046d2958-43ae-40f8-a727-4af7d6174a92.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Weekly NeedIt Cleanup flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-04 23:16:33</sys_created_on>
+        <sys_id>65a8ecf74f8e6300cc194ea18110c721</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Weekly NeedIt Cleanup flow</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_293764_needit_sp">4d2d60af4f826300cc194ea18110c7cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">4d2d60af4f826300cc194ea18110c7cc</sys_scope>
+        <sys_update_name>sys_hub_flow_65a8ecf74f8e6300cc194ea18110c721</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-04 23:28:58</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=65a8ecf74f8e6300cc194ea18110c721"/>
+    <sys_variable_value action="delete_multiple" query="document_key=65a8ecf74f8e6300cc194ea18110c721"/>
+</record_update>
